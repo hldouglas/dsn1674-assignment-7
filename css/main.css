@@ -11,3 +11,40 @@ img {
   width: 100%;
   display: block;
 }
+
+.masthead {
+  background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/masthead-bg.png");
+  padding-top: 6em;
+  background-size: 75px auto, 75px auto, 200px auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left top, right top, left top;
+  text-align: center;
+}
+
+nav ol {
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  padding: 0.5em;
+  background-color: #512200;
+  opacity: 0.5;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.15rem;
+}
+
+li:hover {
+  background-color: #512200;
+  opacity: 0.5;
+}
