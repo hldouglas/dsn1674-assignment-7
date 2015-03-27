@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 img {
   width: 100%;
   display: block;
@@ -14,11 +18,16 @@ img {
 
 .masthead {
   background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/masthead-bg.png");
-  padding-top: 6em;
-  background-size: 75px auto, 75px auto, 200px auto;
+  background-size: 75px auto, 75px auto, 100px auto;
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: left top, right top, left top;
+  background-position: left center, right center, left top;
   text-align: center;
+  font-size: 3em;
+  color: #512200;
+}
+
+h1 {
+  margin: 0;
 }
 
 nav ol {
@@ -33,18 +42,16 @@ nav li {
   text-align: center;
   display: inline-block;
   width: 25%;
-  padding: 0.5em;
-  background-color: #512200;
-  opacity: 0.5;
 }
 
 a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
+  padding-bottom: 1.092px;
 }
 
-li:hover {
+li:hover, nav li {
   background-color: #512200;
   opacity: 0.5;
 }
