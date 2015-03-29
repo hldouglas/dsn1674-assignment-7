@@ -55,3 +55,37 @@ a {
 li:hover, nav li {
   background-color: rgba (81, 34, 0, 0.5);
 }
+
+.rocks{
+	position: relative;
+	width: 100%;
+}
+
+.rocks p{
+  font-size: 1.5em;
+	position: absolute;
+	bottom: 0.3em;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+.ant-nest img {
+	width: 50%;
+	float: left;
+}
+
+.stag img {
+	width: 50%;
+	float: left;
+}
+
+.dung img {
+	width: 50%;
+	float: left;
+}
+
+.tortoise img {
+	width: 50%;
+	float: left;
+}
