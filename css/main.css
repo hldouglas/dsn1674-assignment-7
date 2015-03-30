@@ -35,7 +35,7 @@ nav ol {
   width: 100%;
   margin: auto;
   padding: 0;
-  background-color: rgba (81, 34, 0, 0.5);
+  background-color: rgba(81, 34, 0, 0.5);
 }
 
 nav li {
@@ -53,7 +53,7 @@ a {
 }
 
 li:hover, nav li {
-  background-color: rgba (81, 34, 0, 0.5);
+  background-color: rgba(81, 34, 0, 0.5);
 }
 
 .rocks{
