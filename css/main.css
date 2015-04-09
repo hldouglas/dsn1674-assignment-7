@@ -19,16 +19,17 @@ img {
 
 .masthead {
   background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/masthead-bg.png");
-  background-size: 75px auto, 75px auto, 100px auto;
+  background-size: 50px auto, 50px auto, 100px auto;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left center, right center, left top;
   text-align: center;
-  font-size: 3em;
+  font-size: 1.5em;
   color: #512200;
 }
 
 h1 {
   margin: 0;
+  font-size: 3em;
 }
 
 nav ol {
@@ -44,6 +45,8 @@ nav li {
   text-align: center;
   display: inline-block;
   width: 25%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 a {
@@ -122,4 +125,18 @@ img {
   background-image: linear-gradient(to bottom, #6FC000, #388200);
   right: 25%;
   bottom: 20px;
+}
+
+footer {
+  background-color: rgba(81, 34, 0, 0.5);
+  clear: both;
+}
+
+.beetle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 20px;
 }
