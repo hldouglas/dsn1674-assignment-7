@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
-  font-weight: bold;
 }
 
 *, *::before, *::after {
@@ -19,17 +18,19 @@ img {
 
 .masthead {
   background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/masthead-bg.png");
-  background-size: 50px auto, 50px auto, 100px auto;
+  background-size: 33px auto, 33px auto, 70px auto;
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: left center, right center, left top;
+  background-position: 5% 15%, 95% 15%, left top;
   text-align: center;
-  font-size: 1.5em;
   color: #512200;
 }
 
 h1 {
   margin: 0;
-  font-size: 3em;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 nav ol {
@@ -52,7 +53,8 @@ nav li {
 a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1em;
+  font-weight: bold;
   padding-bottom: 1.092px;
 }
 
@@ -63,15 +65,19 @@ li:hover {
 .rocks{
 	position: relative;
 	width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1),  rgba(0, 0, 0, 0));
 }
 
 .rocks p{
-  font-size: 1.5em;
+  font-size: 1em;
+  font-weight: bold;
 	position: absolute;
 	bottom: 0.3em;
 	text-align: center;
 	width: 100%;
 	color: white;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 img {
@@ -108,8 +114,7 @@ img {
   background-color: #6FC000;
   border-radius: 15px;
   background-image: linear-gradient(to bottom, #6FC000, #388200);
-  left: 25%;
-  bottom: 20px;
+  left: 12.5%;
 }
 
 .btn-right {
@@ -123,8 +128,7 @@ img {
   background-color: #6FC000;
   border-radius: 15px;
   background-image: linear-gradient(to bottom, #6FC000, #388200);
-  right: 25%;
-  bottom: 20px;
+  right: 12.5%;
 }
 
 footer {
