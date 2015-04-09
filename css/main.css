@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
+  font-weight: bold;
 }
 
 *, *::before, *::after {
@@ -52,7 +53,7 @@ a {
   padding-bottom: 1.092px;
 }
 
-li:hover, nav li {
+li:hover {
   background-color: rgba(81, 34, 0, 0.5);
 }
 
@@ -70,22 +71,25 @@ li:hover, nav li {
 	color: white;
 }
 
-.ant-nest img {
-	width: 50%;
-	float: left;
+img {
+  margin: 0;
+  padding: 0;
 }
 
-.stag img {
-	width: 50%;
-	float: left;
+.left {
+  width: 50%;
+  padding: 0;
+  float: left;
 }
 
-.dung img {
-	width: 50%;
-	float: left;
+.right {
+  width: 50%;
+  padding: 0;
+  float: right;
 }
 
-.tortoise img {
-	width: 50%;
-	float: left;
+.image {
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
