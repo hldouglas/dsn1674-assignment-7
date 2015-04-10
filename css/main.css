@@ -20,7 +20,7 @@ img {
   background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/masthead-bg.png");
   background-size: 33px auto, 33px auto, 70px auto;
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: 5% 15%, 95% 15%, left top;
+  background-position: 5% 20%, 95% 20%, left top;
   text-align: center;
   color: #512200;
 }
